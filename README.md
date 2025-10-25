@@ -32,9 +32,8 @@ Assignment2/
 ├── data_loader.py              # Data handling and preprocessing
 ├── evaluator.py                # Evaluation metrics
 ├── requirements.txt            # Python dependencies
-├── README.md                   # This file (GitHub README)
-├── COMPREHENSIVE_SUMMARY.md    # Complete documentation & technical details
-├── ASSIGNMENT_ANSWERS.md       # Assignment submission document
+├── README.md                   # This file (Quick start guide)
+├── COMPREHENSIVE_SUMMARY.md    # Complete technical documentation
 └── data/                       # MovieLens dataset (auto-downloaded)
     ├── u.data                  # 100,000 ratings
     ├── u.item                  # 1,682 movies
@@ -211,44 +210,24 @@ Prediction: r̂ᵤᵢ = μ + bᵤ + bᵢ + pᵤᵀqᵢ
 - **Ranking**: MAP@10, nDCG@10, MRR - Position-aware metrics
 - **Diversity**: Coverage - Catalog diversity
 
-## ✅ Assignment Requirements Met
-
-✅ Data-oriented AI method (Collaborative Filtering with Matrix Factorization)  
-✅ Real-world dataset (MovieLens 100K from GroupLens)  
-✅ Multiple evaluation metrics (9 metrics: accuracy + ranking)  
-✅ Use case examples with inputs/outputs (3 detailed use cases)  
-✅ Testing framework with train-test split (80/20 split)  
-✅ Complete documentation (README + Comprehensive Summary + Assignment Answers)
-
 ## 📖 Documentation
 
-- **`README.md`** (this file) - GitHub README with quick start and overview
+- **`README.md`** (this file) - Quick start guide and project overview
 - **`COMPREHENSIVE_SUMMARY.md`** - Complete technical documentation including:
   - Task approach and methodology
   - Module descriptions
   - Libraries and information flow
   - Testing and calculations
   - Data source details
-- **`ASSIGNMENT_ANSWERS.md`** - Assignment submission with all 5 questions answered
-
-## 🎓 For Academic Submission
-
-Submit these files:
-1. ✅ `ASSIGNMENT_ANSWERS.md` - Main submission document
-2. ✅ All Python files (demo.py, recommender.py, data_loader.py, evaluator.py)
-3. ✅ `requirements.txt`
-4. ✅ Screenshot/output from `python demo.py`
-5. ✅ `evaluation_results.png`
 
 ## 🙏 Acknowledgments
 
 - **GroupLens Research** for the MovieLens dataset
 - **Nicolas Hug** for the Surprise library
-- **Assignment 2** for the project motivation
 
 ## 📧 Contact
 
-For questions about this implementation, please see the comprehensive documentation in `COMPREHENSIVE_SUMMARY.md` or open an issue.
+For questions about this implementation, please see the comprehensive documentation in `COMPREHENSIVE_SUMMARY.md` or open an issue on GitHub.
 
 ---
 
