@@ -73,6 +73,14 @@ This will:
 - 📊 Evaluate with 9 different metrics
 - 📈 Generate visualization (evaluation_results.png)
 
+### Alternative: Run in Browser (MyBinder)
+
+You can also run this project directly in your browser without any local setup using MyBinder:
+
+🚀 **[Launch Interactive Demo on MyBinder](https://hub.2i2c.mybinder.org/user/sudhamanc-drexe-edaiassignment2-zk7ih11j/lab)**
+
+This opens a JupyterLab environment with all dependencies pre-installed. Simply open `demo.py` and run it, or create a new notebook to experiment with the recommender system interactively.
+
 ## 🎯 Use Cases & Examples
 
 The demo application demonstrates three practical use cases for the recommender system:
